@@ -17,12 +17,7 @@ body {
     width: 100%;
 }
 
-body {
-    background-color: #3bb77e;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 .container {
     background: rgba(255, 255, 255, 0.341);
