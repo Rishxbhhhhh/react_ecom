@@ -1,0 +1,14 @@
+.productThumb{width: fit-content; text-align: center; display: grid; height: auto; justify-items: center; justify-content: center; }
+.imgWrapper{display: flex; align-items: center; justify-content: center;}
+.imgWrapper img{ cursor: pointer;transition: all 0.3s ease-in-out; }
+.imgWrapper img{transform:scale(1.1) rotate(0deg);transition: all 0.3s ease-in-out }
+
+.productThumb .price{ font-size: 23px; font-weight: 700; color: #3bb77e; margin-right: 6px;}
+.productThumb .oldPrice{ font-size: 17px; font-weight: 700; color: #5e5e5e; text-decoration:line-through;}
+
+
+.productThumb .catName {color: #000000; font-size: 14px;}
+.productThumb .title a{color: #000; font-weight: 600; font-size: 20px; text-decoration: none;}
+
+.productThumb button { padding: 5px 15px !important; color: #3bb77e;background: #07ff8b6e !important; font-weight: 800 !important;}
+.productThumb button:hover{color: white; background: #3bb77e !important;}
